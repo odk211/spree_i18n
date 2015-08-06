@@ -370,6 +370,10 @@ ja:
     adjustable:
     adjustment: "調整（値引き・追加料金）"
     adjustment_amount:
+    adjustment_labels:
+      tax_rates:
+        including_tax: '%{name}%{amount} (税込)'
+        excluding_tax: '%{name}%{amount}'
     adjustment_successfully_closed:
     adjustment_successfully_opened:
     adjustment_total: "調整（値引き・追加料金）総額"
@@ -868,7 +872,7 @@ ja:
         thanks:
         total:
     order_not_found:
-    order_number:
+    order_number: "注文番号 %{number}"
     order_processed_successfully: "注文が完了しました。"
     order_resumed:
     order_state:
@@ -1153,7 +1157,7 @@ ja:
     shipping_method: "配送方法"
     shipping_methods: "配送方法"
     shipping_price_sack:
-    shipping_total:
+    shipping_total: "配送料・手数料"
     shop_by_taxonomy: "%{taxonomy}"
     shopping_cart: "ショッピングカート"
     show: "表示"
